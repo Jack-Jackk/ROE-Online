@@ -4,7 +4,7 @@ var speed = 700
 
 #anytime the player.tscn is rendered play the idle animation
 
-	
+
 
 func _physics_process(delta):
 	if Input.is_action_pressed("move_right"):
