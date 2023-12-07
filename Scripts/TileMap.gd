@@ -14,7 +14,7 @@ func _ready():
 	temperature.seed = randi()
 	altitude.seed = randi()
 
-	altitude.frequency = 0.01
+	altitude.frequency = 0.03
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
