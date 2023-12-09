@@ -4,18 +4,18 @@
 [ext_resource type="Texture2D" uid="uid://dvrkyqr4n8xh3" path="res://Assets/idlesprite.png" id="2_lfre7"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ce4sc"]
-size = Vector2(237, 415.5)
+size = Vector2(18.0312, 32.8438)
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 script = ExtResource("1_dki0j")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(975.126, 210.375)
-scale = Vector2(1.79712, 1.89737)
+position = Vector2(54.8926, 29)
+scale = Vector2(0.160933, 0.156223)
 texture = ExtResource("2_lfre7")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(651, 206)
+position = Vector2(26, 28)
 shape = SubResource("RectangleShape2D_ce4sc")
 
 [node name="Camera2D" type="Camera2D" parent="."]
