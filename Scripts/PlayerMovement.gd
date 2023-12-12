@@ -1,6 +1,6 @@
 extends CharacterBody2D
 # speed in pixels/sec
-var speed = 700
+var speed = 300
 
 #anytime the player.tscn is rendered play the idle animation
 
