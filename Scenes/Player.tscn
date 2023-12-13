@@ -12,16 +12,20 @@ script = ExtResource("1_dki0j")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 y_sort_enabled = true
-position = Vector2(681, 208)
+position = Vector2(660, 309)
 scale = Vector2(0.160933, 0.156223)
 texture = ExtResource("2_lfre7")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 y_sort_enabled = true
-position = Vector2(651, 209)
+position = Vector2(630, 310)
 zoom = Vector2(2, 2)
+limit_left = 2
+limit_top = 0
+limit_right = 1152
+limit_bottom = 671
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(652, 218)
+position = Vector2(631, 319)
 shape = SubResource("CircleShape2D_ycf1b")
 one_way_collision_margin = 0.0

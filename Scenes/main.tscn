@@ -638,6 +638,7 @@ sources/4 = SubResource("TileSetAtlasSource_lk6m3")
 y_sort_enabled = true
 
 [node name="player1" parent="." instance=ExtResource("2_3ohv5")]
+position = Vector2(165, 34)
 
 [node name="TileMap" type="TileMap" parent="."]
 y_sort_enabled = true
@@ -652,3 +653,12 @@ layer_1/tile_data = PackedInt32Array(2555904, 65536, 5, 2555905, 65536, 5, 24903
 layer_2/name = "tree"
 layer_2/y_sort_enabled = true
 layer_2/tile_data = PackedInt32Array(1703949, 720896, 0, 851980, 720896, 0, 1966112, 720896, 0, 851998, 720896, 0, 1441833, 720896, 0, 524337, 720896, 0, 2097204, 720896, 0, 1441857, 720896, 0, 2359317, 720896, 0, 1179651, 720896, 0, 327699, 720896, 0)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(978, 671)
+zoom = Vector2(2, 2)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(1, 18, 1151, 20, 1151, 672, 0, 672, -1, 1, -14, 685, 1148, 674, 1155, 672, 1155, -2, 1155, -9, -25, -5, -17, -3)
