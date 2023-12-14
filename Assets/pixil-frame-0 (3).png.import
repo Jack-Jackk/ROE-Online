@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bt8ntunm1lwc1"
-path="res://.godot/imported/treeanimation.png-7d4f570eed18d9df39cc917aadd2232b.ctex"
+uid="uid://eo5xdlp81j6i"
+path="res://.godot/imported/pixil-frame-0 (3).png-c982457c3cdecd663af0f2af90b3980b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/treeanimation.png"
-dest_files=["res://.godot/imported/treeanimation.png-7d4f570eed18d9df39cc917aadd2232b.ctex"]
+source_file="res://Assets/pixil-frame-0 (3).png"
+dest_files=["res://.godot/imported/pixil-frame-0 (3).png-c982457c3cdecd663af0f2af90b3980b.ctex"]
 
 [params]
 
