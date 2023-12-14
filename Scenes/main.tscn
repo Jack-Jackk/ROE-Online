@@ -639,7 +639,7 @@ sources/4 = SubResource("TileSetAtlasSource_lk6m3")
 y_sort_enabled = true
 
 [node name="player1" parent="." instance=ExtResource("2_3ohv5")]
-position = Vector2(165, 34)
+position = Vector2(144, -17)
 
 [node name="TileMap" type="TileMap" parent="."]
 y_sort_enabled = true
@@ -667,4 +667,7 @@ position = Vector2(-2, -14)
 polygon = PackedVector2Array(1, 18, 1151, 20, 1151, 672, 0, 672, -1, 1, -14, 685, 1148, 674, 1155, 672, 1155, -2, 1155, -9, -25, -5, -17, -3)
 
 [node name="tree_animation" parent="." instance=ExtResource("4_roueo")]
-position = Vector2(923, 228)
+position = Vector2(535, 79)
+interact_label = "Interaction Test"
+interact_type = "print_text"
+interact_value = "Yay It worked!"
