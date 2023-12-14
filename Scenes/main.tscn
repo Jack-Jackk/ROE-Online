@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://2uavhpfgnfpd"]
+[gd_scene load_steps=7 format=3 uid="uid://dpyks7ox6k0bn"]
 
 [ext_resource type="Texture2D" uid="uid://dgsj6ji6oxbpg" path="res://Assets/19.07a Gentle Forest 3.0 ($0 palettes)/gentle sheets/day.png" id="1_l865f"]
 [ext_resource type="PackedScene" uid="uid://1w2v0knmlfoj" path="res://Scenes/Player.tscn" id="2_3ohv5"]
